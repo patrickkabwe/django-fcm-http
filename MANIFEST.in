@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include django_fcm_http_v1/static *
+recursive-include django_fcm_http_v1/templates *
