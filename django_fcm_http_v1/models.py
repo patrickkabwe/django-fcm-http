@@ -10,7 +10,6 @@ PLATFORMS = (
 
 class DeviceManager(models.Manager):
     def create_device(self, token, name, platform, **extra_fields):
-        pe = ''
         for p in PLATFORMS:
             if platform in p[0]:
                 break

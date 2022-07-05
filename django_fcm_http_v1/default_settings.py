@@ -5,7 +5,7 @@ from django_fcm_http_v1.errors_handlers import ImproperlyConfiguredError
 
 
 DEFAULT_SETTINGS = {
-    'FCM_SERVICE_FILE_PATH': Path(settings.BASE_DIR) / 'config' / 'fcm_service_account.json',
+    'FCM_SERVICE_FILE_PATH': f"{Path(settings.BASE_DIR)}/fcm_service_account.json",
 }
 
 if not hasattr(settings, 'FCM_SERVICE_FILE_PATH'):
