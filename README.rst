@@ -28,9 +28,6 @@ Quick start
 
     FCM_SERVICE_FILE_PATH = '/path/to/service/file.json'
 
-5. Run ``python manage.py migrate`` to create the device models.
+5. Run ``python manage.py migrate`` to create a device model.
 
-6. Start the development server and visit http://127.0.0.1:8000/admin/
-   to create a poll (you'll need the Admin app enabled).
-
-7. Visit http://127.0.0.1:8000/polls/ to participate in the poll.
+6. Start the development server and visit http://127.0.0.1:8000
